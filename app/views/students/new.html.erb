@@ -1,0 +1,8 @@
+#add conditional for mod number 
+<%=form_for @student do |f|%>
+<%= f.label :name%>
+<%= f.text_field :name%>
+<%= f.label :mod%>
+<%= f.number_field :mod%>
+<%=f.submit%>
+<%end%>
